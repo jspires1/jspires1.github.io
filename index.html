@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Giuseppe's Games #1 🇮🇹🥓</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Giuseppe's Games #1 🇮🇹🥓</h1>
+
+  <div id="controls">
+    <button id="guess-btn">Guess Mini-Category</button>
+    <button id="deselect-btn">Deselect All</button>
+    <button id="shuffle-btn">Shuffle Remaining</button>
+    <div>Incorrect Guesses: <span id="incorrect-counter">0</span></div>
+  </div>
+
+  <div id="super-group-controls" style="display: none;">
+    <h2>Guess Super-Groups</h2>
+    <button id="super-guess-btn">Guess Super-Group</button>
+    <button id="super-deselect-btn">Deselect All</button>
+    <button id="super-shuffle-btn">Shuffle Remaining</button>
+  </div>
+
+  <div id="game-board"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
